@@ -3,7 +3,6 @@
 
 ![version](https://img.shields.io/github/manifest-json/v/Natjo/reveal)  
 
-  
 Trig once when element is in viewport. It's possible to add offset
 
 ## Parameters
@@ -19,7 +18,7 @@ Trig once when element is in viewport. It's possible to add offset
 const sections = document.querySelectorAll('section');
 
 reveal(sections, el => {
-	el.classList.add(');
+	el.classList.add('reveal');
 }, .25);
 ```
 
